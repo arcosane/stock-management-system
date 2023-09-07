@@ -18,12 +18,14 @@ export default function Header() {
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span className="ml-3 text-xl">InventorStock</span>
+          <span className="ml-3 text-xl">Inventory System</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-green-600 hover:underline">Home</a>
-          <a className="mr-5 hover:text-green-600 hover:underline">About</a>
-          <a className="mr-5 hover:text-green-600 hover:underline">Contact</a>
+          <a className="mr-5 hover:text-green-600 hover:underline">Dashboard</a>
+          <a className="mr-5 hover:text-green-600 hover:underline">Department</a>
+          <a className="mr-5 hover:text-green-600 hover:underline">Inventory</a>
+          <a className="mr-5 hover:text-green-600 hover:underline">Distribution</a>
+          <a className="mr-5 hover:text-green-600 hover:underline">Log Out</a>
         </nav>
         
       </div>
